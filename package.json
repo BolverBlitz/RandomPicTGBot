@@ -1,0 +1,21 @@
+{
+  "name": "randompicbot",
+  "version": "1.0.0",
+  "description": "Sends random pics in Telegram",
+  "main": "RamdomPics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Fox",
+    "Owl",
+    "Telegram"
+  ],
+  "author": "BolverBlitz",
+  "license": "MIT",
+  "dependencies": {
+    "ping": "^0.2.3",
+    "systeminformation": "^4.26.9",
+    "telebot": "^1.4.1"
+  }
+}
