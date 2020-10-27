@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "ping": "^0.2.3",
-    "systeminformation": "^4.26.9",
+    "systeminformation": "^4.27.11",
     "telebot": "^1.4.1"
   }
 }
