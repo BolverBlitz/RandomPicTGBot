@@ -28,11 +28,10 @@ bot.start(); //Telegram bot start
 //Telegram Errors
 bot.on('reconnecting', (reconnecting) => {
 	f.log("Lost connection");
-	var LastConnectionLost = new Date();
 });
 bot.on('reconnected', (reconnected) => {
 	f.log("connection successfully");
-	bot.sendMessage(config.LogChat, "Bot is back online. Lost connection at " + f.getDateTime(LastConnectionLost))
+	bot.sendMessage(config.LogChat, "Bot is back online.")
 });
 
 bot.on(/^\/alive/i, (msg) => {
